@@ -1,0 +1,7 @@
+# Main theme library.
+global:
+  js:
+    dist/assets/js/bundle.js: {}
+  css:
+    base:
+      dist/assets/css/bundle.css: {}

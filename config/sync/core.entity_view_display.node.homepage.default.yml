@@ -1,0 +1,37 @@
+uuid: 401a6601-8ece-4cf3-9d3e-e12830729d5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.description
+    - field.field.node.homepage.metatags
+    - node.type.homepage
+  module:
+    - metatag
+    - text
+    - user
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  metatags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+hidden: {  }

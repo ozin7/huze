@@ -20,6 +20,7 @@
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
         "drupal/field_group": "^3.6",
+        "drupal/maxlength": "^3.1",
         "drupal/metatag": "^2.1",
         "drupal/paragraphs": "^1.19",
         "drupal/pathauto": "^1.13",
@@ -109,7 +110,7 @@
             "./vendor/bin/drush cr",
             "./vendor/bin/drush cim -y",
             "./vendor/bin/drush cr",
-            "./vendor/bin/drush upwd administrator administrator!"
+            "./vendor/bin/drush upwd admin admin"
         ],
         "site-deploy": [
             "composer install",

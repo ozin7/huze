@@ -1,0 +1,17 @@
+uuid: f7d7fe30-1f74-4f51-ad4e-f708e9979705
+langcode: en
+status: true
+dependencies: {  }
+name: 'Rich Text'
+format: rich_text
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<br> <p class="text-align-left text-align-center text-align-right text-align-justify"> <h3 class="text-align-left text-align-center text-align-right text-align-justify"> <h4 class="text-align-left text-align-center text-align-right text-align-justify"> <strong> <em> <ul> <ol reversed start> <li>'
+      filter_html_help: true
+      filter_html_nofollow: false
