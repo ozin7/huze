@@ -7,6 +7,6 @@ use_maxlength: true
 tag_trim_maxlength:
   metatag_maxlength_title: null
   metatag_maxlength_description: 160
-  metatag_maxlength_abstract: null
+  metatag_maxlength_abstract: 160
 tag_scroll_max_height: ''
 tag_trim_end: '|.,-:;/+&([{"'''

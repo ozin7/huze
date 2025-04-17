@@ -2,6 +2,7 @@ _core:
   default_config_hash: 4GIX5Esnc_umpXUBj4IIocRX7Mt5fPhm4AgXfE3E56E
 module:
   block: 0
+  breakpoint: 0
   ckeditor5: 0
   config: 0
   contextual: 0
@@ -14,6 +15,7 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  gin_login: 0
   image: 0
   inline_form_errors: 0
   layout_builder: 0
@@ -33,6 +35,7 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  responsive_image: 0
   system: 0
   taxonomy: 0
   text: 0

@@ -1,0 +1,27 @@
+hurei.mobile:
+  label: 'Mobile'
+  mediaQuery: '(max-width: 480px)'
+  weight: 0
+  multipliers:
+    - 1x
+
+hurei.tablet:
+  label: 'Tablet'
+  mediaQuery: '(min-width: 481px) and (max-width: 768px)'
+  weight: 1
+  multipliers:
+    - 1x
+
+hurei.desktop:
+  label: 'Desktop'
+  mediaQuery: '(min-width: 1025px) and (max-width: 1440px)'
+  weight: 2
+  multipliers:
+    - 1x
+
+hurei.retina:
+  label: 'Retina'
+  mediaQuery: '(min-width: 1441px)'
+  weight: 3
+  multipliers:
+    - 2x

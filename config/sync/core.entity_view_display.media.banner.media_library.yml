@@ -1,0 +1,32 @@
+uuid: ac92d5ff-40e9-4cca-83c4-6477c267a492
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.banner.media_image
+    - image.style.medium
+    - media.type.banner
+  module:
+    - image
+id: media.banner.media_library
+targetEntityType: media
+bundle: banner
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  media_image: true
+  name: true
+  uid: true
