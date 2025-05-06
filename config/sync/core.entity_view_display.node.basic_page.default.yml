@@ -1,0 +1,37 @@
+uuid: a1d167d2-4519-4f5d-9302-a103ae298b77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.basic_page.description
+    - field.field.node.basic_page.metatags
+    - node.type.basic_page
+  module:
+    - metatag
+    - text
+    - user
+id: node.basic_page.default
+targetEntityType: node
+bundle: basic_page
+mode: default
+content:
+  description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  metatags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+hidden: {  }

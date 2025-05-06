@@ -1,0 +1,24 @@
+uuid: 073c005d-921d-4bf0-86fc-0f4fcc865283
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.description
+    - filter.format.rich_text
+    - node.type.basic_page
+  module:
+    - text
+id: node.basic_page.description
+field_name: description
+entity_type: node
+bundle: basic_page
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - rich_text
+field_type: text_long

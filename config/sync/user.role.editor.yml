@@ -1,0 +1,40 @@
+uuid: 48662396-c650-44fe-8ea6-664e98c14c85
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.rich_text
+    - node.type.basic_page
+    - node.type.homepage
+  module:
+    - file
+    - filter
+    - media
+    - navigation
+    - node
+    - path
+    - system
+id: editor
+label: Editor
+weight: 3
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access navigation'
+  - 'change own username'
+  - 'create media'
+  - 'create url aliases'
+  - 'delete any file'
+  - 'delete any media'
+  - 'delete media'
+  - 'delete own files'
+  - 'edit any basic_page content'
+  - 'edit any homepage content'
+  - 'update any media'
+  - 'update media'
+  - 'use text format rich_text'
+  - 'view own unpublished content'
+  - 'view the administration theme'
