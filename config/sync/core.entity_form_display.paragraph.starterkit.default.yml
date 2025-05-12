@@ -1,0 +1,60 @@
+uuid: f3f704e1-380d-4367-8c72-a93a0e6056d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.starterkit.description
+    - field.field.paragraph.starterkit.heading
+    - field.field.paragraph.starterkit.multiple_images
+    - field.field.paragraph.starterkit.single_image
+    - field.field.paragraph.starterkit.text
+    - paragraphs.paragraphs_type.starterkit
+  module:
+    - media_library
+    - text
+id: paragraph.starterkit.default
+targetEntityType: paragraph
+bundle: starterkit
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  heading:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  multiple_images:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  single_image:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  text:
+    type: text_textarea
+    weight: 4
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

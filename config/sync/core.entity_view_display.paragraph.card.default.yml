@@ -1,0 +1,41 @@
+uuid: bc30f86d-0ab3-4e9f-ad58-a6383198626b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card.description
+    - field.field.paragraph.card.heading
+    - field.field.paragraph.card.single_image
+    - paragraphs.paragraphs_type.card
+  module:
+    - text
+id: paragraph.card.default
+targetEntityType: paragraph
+bundle: card
+mode: default
+content:
+  description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  heading:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  single_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

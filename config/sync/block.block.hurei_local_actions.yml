@@ -1,13 +1,13 @@
-uuid: c2f67154-b0e9-47d1-831c-98edee6dbcd6
+uuid: ff08e7f4-ac76-43f5-a019-aefeb37d2d30
 langcode: en
 status: true
 dependencies:
   theme:
-    - stark
+    - hurei
 _core:
   default_config_hash: ABoKnlk20KHqZRw_2Qr4EvaFvH4lnQ2nuhunHeE1JIU
-id: stark_local_actions
-theme: stark
+id: hurei_local_actions
+theme: hurei
 region: content
 weight: -10
 provider: null

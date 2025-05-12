@@ -1,0 +1,19 @@
+uuid: b597a513-b2c8-479a-958b-91ed076dd0a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.heading
+    - paragraphs.paragraphs_type.starterkit
+id: paragraph.starterkit.heading
+field_name: heading
+entity_type: paragraph
+bundle: starterkit
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

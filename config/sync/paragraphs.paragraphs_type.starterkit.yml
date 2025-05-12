@@ -1,0 +1,10 @@
+uuid: d6ad9c97-4379-4677-abf9-919e2affe40d
+langcode: en
+status: true
+dependencies: {  }
+id: starterkit
+label: Starterkit
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

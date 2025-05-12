@@ -1,0 +1,24 @@
+uuid: 7a8464a9-c5bb-4732-93ce-a947e925ce66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.description
+    - filter.format.rich_text
+    - paragraphs.paragraphs_type.starterkit
+  module:
+    - text
+id: paragraph.starterkit.description
+field_name: description
+entity_type: paragraph
+bundle: starterkit
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - rich_text
+field_type: text_long

@@ -1,0 +1,24 @@
+uuid: a82422df-18ea-4d16-b49b-131d6776fc66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.description
+    - filter.format.rich_text
+    - paragraphs.paragraphs_type.card
+  module:
+    - text
+id: paragraph.card.description
+field_name: description
+entity_type: paragraph
+bundle: card
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - rich_text
+field_type: text_long

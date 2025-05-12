@@ -1,0 +1,24 @@
+uuid: 62602ce5-68ca-4b82-b93a-a4eed574dd94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.text
+    - filter.format.rich_text
+    - paragraphs.paragraphs_type.starterkit
+  module:
+    - text
+id: paragraph.starterkit.text
+field_name: text
+entity_type: paragraph
+bundle: starterkit
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - rich_text
+field_type: text_long

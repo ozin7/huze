@@ -1,16 +1,16 @@
-uuid: dce453b6-1a12-4336-bbda-47cdb73cb687
+uuid: 50b62905-6fb7-4db0-af88-e5ce0c96336d
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - stark
+    - hurei
 _core:
   default_config_hash: aeqlWs7HwctZeZC7ADcbxfqehJzBRfZKmuZz3DsH3_4
-id: stark_messages
-theme: stark
-region: highlighted
+id: hurei_messages
+theme: hurei
+region: header
 weight: 0
 provider: null
 plugin: system_messages_block

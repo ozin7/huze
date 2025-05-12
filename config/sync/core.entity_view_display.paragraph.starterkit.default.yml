@@ -1,0 +1,59 @@
+uuid: f0fb8c78-3fbe-4f6e-b51c-3afe73fd691e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.starterkit.description
+    - field.field.paragraph.starterkit.heading
+    - field.field.paragraph.starterkit.multiple_images
+    - field.field.paragraph.starterkit.single_image
+    - field.field.paragraph.starterkit.text
+    - paragraphs.paragraphs_type.starterkit
+  module:
+    - text
+id: paragraph.starterkit.default
+targetEntityType: paragraph
+bundle: starterkit
+mode: default
+content:
+  description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  heading:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  multiple_images:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  single_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }
