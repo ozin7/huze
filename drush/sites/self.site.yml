@@ -1,0 +1,17 @@
+# dev:
+#   host: 88.99.253.71
+#   user: esel
+#   root: /home/esel/public_html/web
+#   uri: https://esel.oya.at
+#   paths:
+#     drush-script: "/home/esel/public_html/vendor/bin/drush"
+# prod:
+#   host: 136.243.167.87
+#   user: dasjes
+#   root: /usr/home/dasjes/public_html/das_esel/web
+#   uri: https://das-esel.com
+#   paths:
+#     drush-script: "/usr/home/dasjes/public_html/das_esel/vendor/bin/drush"
+#     files: "/usr/home/dasjes/public_html/das_esel/web/sites/default/files"
+#   ssh:
+#     options: "-p 222"

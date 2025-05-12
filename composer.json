@@ -26,6 +26,7 @@
         "drupal/paragraphs": "^1.19",
         "drupal/pathauto": "^1.13",
         "drupal/redirect_after_login": "^3.0@dev",
+        "drupal/simple_sitemap": "^4.2",
         "drupal/twig_tweak": "^3.4",
         "drush/drush": "^13.4"
     },
@@ -111,10 +112,16 @@
             "./vendor/bin/drush si --existing-config -y",
             "./vendor/bin/drush cr",
             "./vendor/bin/drush cim -y",
-            "./vendor/bin/drush cr",
-            "./vendor/bin/drush upwd admin admin"
+            "./vendor/bin/drush cr"
         ],
         "site-deploy": [
+            "composer install",
+            "./vendor/bin/drush cr",
+            "./vendor/bin/drush -y updatedb",
+            "./vendor/bin/drush cim -y"
+        ],
+        "site-pull": [
+            "git pull origin main",
             "composer install",
             "./vendor/bin/drush cr",
             "./vendor/bin/drush -y updatedb",
