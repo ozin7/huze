@@ -1,0 +1,22 @@
+uuid: 4dcf1a2a-1e70-4d02-ad7f-a1ed5b5d9c22
+langcode: en
+status: true
+dependencies:
+  theme:
+    - huze
+_core:
+  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
+id: huze_primary_local_tasks
+theme: huze
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

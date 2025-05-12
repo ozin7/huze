@@ -1,14 +1,14 @@
-uuid: 9534d1c9-6b22-4f95-afcb-9e2e606b2914
+uuid: 78fc3e76-7bae-42e9-b999-28c1d150fbb7
 langcode: en
 status: true
 dependencies:
   theme:
-    - hurei
+    - huze
 _core:
-  default_config_hash: Oh72CHUkp6cj6dbrXMK2hzCsM05w9cHVoD22rMLQUfk
-id: hurei_page_title
-theme: hurei
-region: content
+  default_config_hash: fNwDdW063tk_ktzSWzZVeQS9wzvLooVO280BQ9WrsIs
+id: huze_page_title
+theme: huze
+region: header
 weight: -30
 provider: null
 plugin: page_title_block

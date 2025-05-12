@@ -1,13 +1,13 @@
-uuid: ff08e7f4-ac76-43f5-a019-aefeb37d2d30
+uuid: 96a0a16b-c417-450a-9fb1-b98521e51ff5
 langcode: en
 status: true
 dependencies:
   theme:
-    - hurei
+    - huze
 _core:
-  default_config_hash: ABoKnlk20KHqZRw_2Qr4EvaFvH4lnQ2nuhunHeE1JIU
-id: hurei_local_actions
-theme: hurei
+  default_config_hash: CdXfDmRgAvms7EQovxxWPdYi0GitxeRbVtScYK16ZH0
+id: huze_local_actions
+theme: huze
 region: content
 weight: -10
 provider: null

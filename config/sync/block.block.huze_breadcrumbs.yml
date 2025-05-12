@@ -1,0 +1,22 @@
+uuid: c071d3b7-0ec5-4d04-9265-9e359fb8f841
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - huze
+_core:
+  default_config_hash: NjcxOBrPOiK5-38t56DwFBDVY4yer7YSlbRWXFuHe7A
+id: huze_breadcrumbs
+theme: huze
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

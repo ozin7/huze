@@ -1,0 +1,6 @@
+name: 'Huze Administration'
+type: module
+description: 'Administration features'
+package: Huze
+core_version_requirement: ^11
+weight: 100

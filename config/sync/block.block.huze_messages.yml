@@ -1,15 +1,15 @@
-uuid: 50b62905-6fb7-4db0-af88-e5ce0c96336d
+uuid: 87953878-3dab-4c19-8224-1814d0938a8a
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - hurei
+    - huze
 _core:
-  default_config_hash: aeqlWs7HwctZeZC7ADcbxfqehJzBRfZKmuZz3DsH3_4
-id: hurei_messages
-theme: hurei
+  default_config_hash: '-Ac3ISpIT0PQ-whzD7_dw0SdKi6dAbRFNWdSjOiVDqg'
+id: huze_messages
+theme: huze
 region: header
 weight: 0
 provider: null
