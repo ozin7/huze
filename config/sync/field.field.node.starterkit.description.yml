@@ -1,0 +1,24 @@
+uuid: befc34ae-6a58-4124-9cc0-fb5f561be025
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.description
+    - filter.format.rich_text
+    - node.type.starterkit
+  module:
+    - text
+id: node.starterkit.description
+field_name: description
+entity_type: node
+bundle: starterkit
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - rich_text
+field_type: text_long

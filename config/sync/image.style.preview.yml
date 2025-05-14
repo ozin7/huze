@@ -1,0 +1,15 @@
+uuid: 6274c99b-9f2e-4e86-a2ed-980acd4fa388
+langcode: en
+status: true
+dependencies: {  }
+name: preview
+label: Preview
+effects:
+  8eccc13e-9d02-45f2-aa23-2393b21701ad:
+    uuid: 8eccc13e-9d02-45f2-aa23-2393b21701ad
+    id: image_scale
+    weight: 1
+    data:
+      width: 220
+      height: 220
+      upscale: false

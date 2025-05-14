@@ -1,0 +1,34 @@
+uuid: 4f383239-932f-40a4-badf-29d67676b177
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.paragraph
+    - node.type.starterkit
+    - paragraphs.paragraphs_type.starterkit
+  module:
+    - entity_reference_revisions
+id: node.starterkit.paragraph
+field_name: paragraph
+entity_type: node
+bundle: starterkit
+label: Paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      starterkit: starterkit
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 3
+        enabled: false
+      starterkit:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,22 @@
+uuid: fb54f6b7-c890-4566-915b-58677fdecfe2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.starterkit
+id: node.starterkit.promote
+field_name: promote
+entity_type: node
+bundle: starterkit
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

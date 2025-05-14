@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.media.banner.media_image
-    - image.style.large
     - media.type.banner
   module:
     - image
@@ -15,12 +14,12 @@ mode: default
 content:
   media_image:
     type: image
-    label: visually_hidden
+    label: hidden
     settings:
       image_link: ''
-      image_style: large
+      image_style: ''
       image_loading:
-        attribute: lazy
+        attribute: eager
     third_party_settings: {  }
     weight: 0
     region: content

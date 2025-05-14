@@ -1,0 +1,59 @@
+uuid: 915c913a-e7f2-47ef-90a0-d7f0964de844
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.starterkit.description
+    - field.field.node.starterkit.image
+    - field.field.node.starterkit.images
+    - field.field.node.starterkit.paragraph
+    - node.type.starterkit
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.starterkit.default
+targetEntityType: node
+bundle: starterkit
+mode: default
+content:
+  description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  images:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  paragraph:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+hidden: {  }

@@ -1,0 +1,29 @@
+uuid: e322214f-73f2-4983-82cc-75c629f9985e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.images
+    - media.type.image
+    - node.type.starterkit
+id: node.starterkit.images
+field_name: images
+entity_type: node
+bundle: starterkit
+label: Images
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
