@@ -126,6 +126,12 @@
             "./vendor/bin/drush cr",
             "./vendor/bin/drush -y updatedb",
             "./vendor/bin/drush cim -y"
+        ],
+        "site-update": [
+            "composer update",
+            "./vendor/bin/drush -y updatedb",
+            "./vendor/bin/drush cr",
+            "./vendor/bin/drush cex -y"
         ]
     }
 }

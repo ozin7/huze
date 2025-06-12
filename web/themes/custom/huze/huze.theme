@@ -22,3 +22,24 @@ function huze_theme_suggestions_page_alter(array &$suggestions, array $variables
     $suggestions[] = 'page__node__' . $node->bundle();
   }
 }
+
+/**
+ * Implement hook_theme_suggestions_submit_alter().
+ */
+function huze_theme_suggestions_input_alter(array &$suggestions, array $variables)
+{
+  $name = str_replace('-', '_', $variables['element']['#name']);
+  if ($name) {
+    $suggestions[] = 'input__' . $name;
+    $suggestions[] = 'input__' . $variables['element']['#type'] . '__' . $name;
+  }
+}
+
+/**
+ * Implement hook_theme_suggestions_form_alter().
+ */
+function huze_theme_suggestions_form_alter(array &$suggestions, array $variables)
+{
+  $form_id = str_replace('-', '_', $variables['element']['#id']);
+  $suggestions[] = 'form__' . $form_id;
+}
