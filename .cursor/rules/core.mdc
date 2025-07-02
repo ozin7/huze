@@ -1,0 +1,6 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+This project uses Drupal core 11 with PHP ^8.3. Machine names for fields doe not include prefix "field_".

@@ -1,0 +1,6 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+Use jQuery for js code. Use Drupal jQuery features like once and behaviours.

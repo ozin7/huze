@@ -1,0 +1,7 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+On the server use "settings.local.php" file for connections details and private data.
+"settings.ddev.php" is used for local development environment and should include all necessary configs. If some createntials should be added suggest correct file based on environment.
