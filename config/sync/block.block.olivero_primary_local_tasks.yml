@@ -1,15 +1,15 @@
-uuid: 4dcf1a2a-1e70-4d02-ad7f-a1ed5b5d9c22
+uuid: 7ef93645-e1fb-45eb-97c0-a411011c9c82
 langcode: en
 status: true
 dependencies:
   theme:
-    - huze
+    - olivero
 _core:
-  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
-id: huze_primary_local_tasks
-theme: huze
-region: header
-weight: 0
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: olivero_primary_local_tasks
+theme: olivero
+region: highlighted
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

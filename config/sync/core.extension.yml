@@ -53,5 +53,5 @@ module:
   minimal: 1000
 theme:
   claro: 0
-  huze: 0
+  olivero: 0
 profile: minimal

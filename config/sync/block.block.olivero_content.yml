@@ -1,15 +1,15 @@
-uuid: dc660e7e-0e3b-47ac-8236-2d1c2fcf7276
+uuid: ee494ba0-22af-4d27-8a9c-f5a9c9b11d6b
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - huze
+    - olivero
 _core:
-  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
-id: huze_content
-theme: huze
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: olivero_content
+theme: olivero
 region: content
 weight: 0
 provider: null

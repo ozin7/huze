@@ -1,17 +1,17 @@
-uuid: 87953878-3dab-4c19-8224-1814d0938a8a
+uuid: bb127ed8-f408-4627-9f91-8ae7229a073f
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - huze
+    - olivero
 _core:
-  default_config_hash: '-Ac3ISpIT0PQ-whzD7_dw0SdKi6dAbRFNWdSjOiVDqg'
-id: huze_messages
-theme: huze
-region: header
-weight: 0
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: olivero_messages
+theme: olivero
+region: highlighted
+weight: -5
 provider: null
 plugin: system_messages_block
 settings:
