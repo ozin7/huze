@@ -1,27 +1,39 @@
-hurei.mobile:
-  label: 'Mobile'
-  mediaQuery: '(max-width: 480px)'
+huze.xs:
+  label: 'Extra Small'
+  mediaQuery: '(max-width: 575px)'
   weight: 0
   multipliers:
     - 1x
+    - 2x
 
-hurei.tablet:
-  label: 'Tablet'
-  mediaQuery: '(min-width: 481px) and (max-width: 768px)'
+huze.sm:
+  label: 'Small'
+  mediaQuery: '(min-width: 576px) and (max-width: 767px)'
   weight: 1
   multipliers:
     - 1x
+    - 2x
 
-hurei.desktop:
-  label: 'Desktop'
-  mediaQuery: '(min-width: 1025px) and (max-width: 1440px)'
+huze.md:
+  label: 'Medium'
+  mediaQuery: '(min-width: 768px) and (max-width: 1199px)'
   weight: 2
   multipliers:
     - 1x
+    - 2x
 
-hurei.retina:
-  label: 'Retina'
-  mediaQuery: '(min-width: 1441px)'
-  weight: 3
+huze.lg:
+  label: 'Large'
+  mediaQuery: '(min-width: 1200px) and (max-width: 1599px)'
+  weight: 4
   multipliers:
+    - 1x
+    - 2x
+
+huze.xl:
+  label: 'Extra Large'
+  mediaQuery: '(min-width: 1600px)'
+  weight: 5
+  multipliers:
+    - 1x
     - 2x
