@@ -1,0 +1,9 @@
+admin_pages:
+  css:
+    theme:
+      css/admin.css: {}
+
+navigation:
+  css:
+    theme:
+      css/navigation.css: {}
