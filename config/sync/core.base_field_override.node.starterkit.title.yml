@@ -1,0 +1,18 @@
+uuid: 583bddb3-db2b-41d1-a5c3-6ab2fb6829bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.starterkit
+id: node.starterkit.title
+field_name: title
+entity_type: node
+bundle: starterkit
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

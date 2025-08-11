@@ -1,0 +1,8 @@
+uuid: 08a13e6d-7cb2-414b-927f-91861a972cf3
+langcode: en
+status: true
+dependencies: {  }
+id: default_short
+label: 'Default Short'
+locked: false
+pattern: d.m.Y

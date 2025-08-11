@@ -1,0 +1,18 @@
+uuid: 63ccf7ed-4246-4531-ac3b-ab58e2a38e7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.starterkit
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.starterkit
+target_entity_type_id: node
+target_bundle: starterkit
+default_langcode: site_default
+language_alterable: false

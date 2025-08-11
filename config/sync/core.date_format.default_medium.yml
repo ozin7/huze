@@ -1,0 +1,8 @@
+uuid: e15b266c-2be1-4313-a4cf-fd964a42b463
+langcode: en
+status: true
+dependencies: {  }
+id: default_medium
+label: 'Default Medium'
+locked: false
+pattern: 'm F Y'

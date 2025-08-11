@@ -1,0 +1,18 @@
+uuid: 73ac0b06-db47-4740-b666-01c4d45152e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.starterkit
+id: node.starterkit.changed
+field_name: changed
+entity_type: node
+bundle: starterkit
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

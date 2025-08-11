@@ -1,0 +1,18 @@
+uuid: 0d5a5320-35d7-469f-a26c-50960c1666a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.banner
+id: media.banner.changed
+field_name: changed
+entity_type: media
+bundle: banner
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

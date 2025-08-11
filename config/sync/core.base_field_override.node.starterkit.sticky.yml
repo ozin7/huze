@@ -1,0 +1,22 @@
+uuid: 781859ef-bcd0-4131-98ef-13879a2d2fc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.starterkit
+id: node.starterkit.sticky
+field_name: sticky
+entity_type: node
+bundle: starterkit
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

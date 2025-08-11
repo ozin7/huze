@@ -1,0 +1,22 @@
+uuid: ae7365b2-3145-4534-872f-5d167bc590a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.starterkit
+id: paragraph.starterkit.status
+field_name: status
+entity_type: paragraph
+bundle: starterkit
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

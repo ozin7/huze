@@ -1,0 +1,20 @@
+uuid: 01c901f5-d380-4fe6-bdec-369da816ae78
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.banner
+id: media.banner.name
+field_name: name
+entity_type: media
+bundle: banner
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: 475b0024-26ef-4da2-ba41-b7f7fb39d171
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.starterkit
+id: node.starterkit.menu_link
+field_name: menu_link
+entity_type: node
+bundle: starterkit
+label: 'Menu link'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

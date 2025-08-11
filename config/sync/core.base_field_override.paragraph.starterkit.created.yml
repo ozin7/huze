@@ -1,0 +1,18 @@
+uuid: 3a623b4e-5afc-4b33-a524-6d2e99a1a1fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.starterkit
+id: paragraph.starterkit.created
+field_name: created
+entity_type: paragraph
+bundle: starterkit
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

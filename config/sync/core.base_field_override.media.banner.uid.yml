@@ -1,0 +1,20 @@
+uuid: fbb21abd-4189-4067-9100-0715961f684d
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.banner
+id: media.banner.uid
+field_name: uid
+entity_type: media
+bundle: banner
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

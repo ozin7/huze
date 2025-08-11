@@ -27,6 +27,7 @@ content:
     region: content
 hidden:
   created: true
+  langcode: true
   media_image: true
   name: true
   uid: true

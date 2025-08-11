@@ -1,0 +1,18 @@
+uuid: de9d6ecf-01e0-4dd5-8576-aa7623721af3
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.banner
+id: media.banner.created
+field_name: created
+entity_type: media
+bundle: banner
+label: 'Authored on'
+description: 'The time the media item was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created

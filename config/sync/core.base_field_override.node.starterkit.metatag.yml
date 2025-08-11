@@ -1,0 +1,20 @@
+uuid: 25a0dc49-7d61-43c3-bdb8-4abf482bb623
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.starterkit
+  module:
+    - metatag
+id: node.starterkit.metatag
+field_name: metatag
+entity_type: node
+bundle: starterkit
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed
