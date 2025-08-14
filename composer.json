@@ -20,6 +20,7 @@
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
         "drupal/field_group": "^4.0",
+        "drupal/gin": "^5.0",
         "drupal/gin_login": "^2.1",
         "drupal/maxlength": "^3.1",
         "drupal/metatag": "^2.1",
