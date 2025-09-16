@@ -36,6 +36,10 @@ $config['symfony_mailer.mailer_transport.sendmail']['configuration']['port'] = '
 // Enable verbose logging for errors.
 // https://www.drupal.org/forum/support/post-installation/2018-07-18/enable-drupal-8-backend-errorlogdebugging-mode
 $config['system.logging']['error_level'] = 'verbose';
+error_reporting(E_ALL);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
+
 $settings['cache']['bins']['discovery_migration'] = 'cache.backend.memory';
 $settings['cache']['bins']['render'] = 'cache.backend.null';
 $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
