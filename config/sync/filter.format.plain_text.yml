@@ -1,10 +1,10 @@
 uuid: 90419253-9c42-4085-b1fb-cf2862e049c6
-langcode: en
+langcode: de
 status: true
 dependencies: {  }
 _core:
   default_config_hash: JLMwODO0epnA_H-jFlH9ezVfa5YBJniRv3MmLqYNl_Q
-name: 'Plain text'
+name: Klartext
 format: plain_text
 weight: 10
 filters:

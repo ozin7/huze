@@ -17,6 +17,7 @@ module:
   file: 0
   filter: 0
   gin_login: 0
+  honeypot: 0
   huze_administration: 0
   image: 0
   inline_form_errors: 0

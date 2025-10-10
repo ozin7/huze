@@ -1,10 +1,10 @@
 uuid: e0f98469-409c-40dd-b0cd-cb37c5f06291
-langcode: en
+langcode: de
 status: true
 dependencies: {  }
 _core:
   default_config_hash: q7pDV2d9qFh1IVqvymOxUUYGSziZDeg961wURC0cSLs
 id: medium
-label: 'Default medium date'
+label: 'Standard-Datum mittellang'
 locked: false
-pattern: 'D, j M Y - H:i'
+pattern: 'D j M Y - H:i'

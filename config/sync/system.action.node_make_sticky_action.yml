@@ -1,5 +1,5 @@
 uuid: f02b7db5-83a9-489b-84e9-bdcf4d60cf66
-langcode: en
+langcode: de
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
 id: node_make_sticky_action
-label: 'Make content sticky'
+label: 'Inhalt anpinnen (oben in Listen)'
 type: node
 plugin: node_make_sticky_action
 configuration: {  }

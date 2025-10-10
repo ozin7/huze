@@ -1,14 +1,14 @@
 uuid: 58f99dbf-4ce7-4361-a40d-55b891a399b9
-langcode: en
+langcode: de
 status: true
 dependencies: {  }
 _core:
   default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
 id: node
-label: Content
+label: Inhalt
 tags:
   canonical_url: '[node:url]'
-  description: '[node:description]'
+  description: '[node:summary]'
   og_description: '[node:description]'
   og_site_name: '[site:name]'
   og_title: '[node:title]'

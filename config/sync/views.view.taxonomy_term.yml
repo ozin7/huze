@@ -1,5 +1,5 @@
 uuid: d8bf1f57-0d5c-4521-832a-f4b24bae79dc
-langcode: en
+langcode: de
 status: true
 dependencies:
   config:
@@ -11,16 +11,16 @@ dependencies:
 _core:
   default_config_hash: KejdxDJQmx8SaO-t83OVekLw6ar4ldjmsJMGcotGxnQ
 id: taxonomy_term
-label: 'Taxonomy term'
+label: Taxonomie-Begriff
 module: taxonomy
-description: 'Content belonging to a certain taxonomy term.'
+description: 'Inhalt, der zu einem bestimmten Taxonomie-Begriff gehört.'
 tag: default
 base_table: node_field_data
 base_field: nid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Standard
     display_plugin: default
     position: 0
     display_options:
@@ -38,22 +38,22 @@ display:
             previous: ‹‹
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elemente pro Seite'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Alle -'
             offset: false
-            offset_label: Offset
+            offset_label: Versatz
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Anwenden
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: Sortierung
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
       access:
         type: perm
         options:
@@ -103,7 +103,7 @@ display:
           exception:
             value: ''
             title_enable: false
-            title: All
+            title: Alle
           title_enable: true
           title: '{{ arguments.tid }}'
           default_argument_type: fixed
@@ -261,7 +261,7 @@ display:
       tags: {  }
   feed_1:
     id: feed_1
-    display_title: Feed
+    display_title: Newsfeed
     display_plugin: feed
     position: 2
     display_options:
@@ -299,7 +299,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Page
+    display_title: Seite
     display_plugin: page
     position: 1
     display_options:

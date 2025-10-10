@@ -1,5 +1,5 @@
 uuid: 658eda2a-5f04-475f-8488-ccc1950003c0
-langcode: en
+langcode: de
 status: true
 dependencies:
   enforced:
@@ -8,6 +8,6 @@ dependencies:
 _core:
   default_config_hash: z7ynTCss9wwEi8ojENJ08qx44RN6leI-tqoN2o5QzdE
 id: olivero_medium
-label: 'Olivero Medium'
+label: 'Olivero mittel'
 locked: false
 pattern: 'j F Y'

@@ -1,5 +1,5 @@
 uuid: a48078e1-2c57-42ab-8bce-f4b331a58b7b
-langcode: en
+langcode: de
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: CsK6TseQ2DatEbZgbd30swOlZ28_HHwAESU2LvEnWq0
 id: media_unpublish_action
-label: 'Unpublish media'
+label: 'Veröffentlichung von Medien zurücknehmen'
 type: media
 plugin: 'entity:unpublish_action:media'
 configuration: {  }
