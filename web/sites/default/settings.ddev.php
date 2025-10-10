@@ -49,3 +49,5 @@ $config['system.performance']['js']['preprocess'] = FALSE;
 $settings['extension_discovery_scan_tests'] = FALSE;
 
 $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/services.ddev.yml';
+
+$config['symfony_mailer.settings']['default_transport'] = 'sendmail';

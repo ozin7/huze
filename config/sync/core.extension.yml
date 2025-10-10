@@ -26,6 +26,7 @@ module:
   layout_discovery: 0
   link: 0
   locale: 0
+  mailer_transport: 0
   maxlength: 0
   media: 0
   media_library: 0
@@ -43,6 +44,7 @@ module:
   redirect_after_login: 0
   responsive_image: 0
   simple_sitemap: 0
+  symfony_mailer: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -50,6 +52,7 @@ module:
   twig_tweak: 0
   user: 0
   views_ui: 0
+  webform: 0
   pathauto: 1
   content_translation: 10
   views: 10
