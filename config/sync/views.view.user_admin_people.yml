@@ -874,6 +874,17 @@ display:
       use_more_text: mehr
       link_display: page_1
       link_url: ''
+      header:
+        result:
+          id: result
+          table: views
+          field: result
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: result
+          empty: false
+          content: 'Displaying @start - @end of @total'
       display_comment: ''
       hide_attachment_summary: false
       display_extenders: {  }

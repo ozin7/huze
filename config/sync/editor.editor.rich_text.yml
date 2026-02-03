@@ -14,10 +14,19 @@ settings:
       - heading
       - bold
       - italic
+      - underline
+      - strikethrough
       - '|'
       - alignment
       - '|'
+      - link
+      - '|'
       - bulletedList
+      - numberedList
+      - '|'
+      - insertTable
+      - '|'
+      - drupalInsertImage
       - '|'
       - sourceEditing
   plugins:
@@ -31,6 +40,8 @@ settings:
       enabled_headings:
         - heading3
         - heading4
+    ckeditor5_imageResize:
+      allow_resize: true
     ckeditor5_list:
       properties:
         reversed: true
@@ -40,4 +51,10 @@ settings:
     ckeditor5_sourceEditing:
       allowed_tags: {  }
 image_upload:
-  status: false
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: null
+  max_dimensions:
+    width: null
+    height: null
