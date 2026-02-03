@@ -1,0 +1,8 @@
+uuid: adf4620a-7fca-4bf3-b8fb-ff8bacf4ffe9
+langcode: en
+status: true
+dependencies: {  }
+id: default_short_time
+label: 'Default Short Time'
+locked: false
+pattern: 'd.m.Y - H:i'

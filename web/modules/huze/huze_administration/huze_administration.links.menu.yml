@@ -1,0 +1,12 @@
+huze_administration.vocabularies:
+  title: 'Vocabularies'
+  description: 'Vocabularies management'
+  route_name: entity.taxonomy_vocabulary.collection
+  parent: system.admin
+  weight: -10
+huze_administration.menus:
+  title: 'Menus'
+  description: 'Menus management'
+  route_name: entity.menu.collection
+  parent: system.admin
+  weight: -9

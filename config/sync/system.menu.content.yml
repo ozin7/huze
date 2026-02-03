@@ -8,6 +8,6 @@ dependencies:
 _core:
   default_config_hash: nqVwm91Uyib_rvFaNPF1MdYqHlmZ38w5rsOVVy4uWDw
 id: content
-label: Inhalt
+label: Inhalt/Seiten
 description: 'Content task links'
 locked: true

@@ -22,7 +22,7 @@ sections:
         region: content
         configuration:
           id: 'navigation_menu:content'
-          label: Inhalt
+          label: Inhalt/Seiten
           label_display: '0'
           provider: navigation
           level: 1

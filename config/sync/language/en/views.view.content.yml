@@ -1,4 +1,4 @@
-label: Content
+label: Content/Pages
 description: 'Find and manage content.'
 display:
   default:
@@ -10,11 +10,9 @@ display:
           label: Title
         type:
           label: 'Content type'
-          separator: ', '
         name:
           label: Author
         status:
-          label: Status
           settings:
             format_custom_false: Unpublished
             format_custom_true: Published
@@ -22,7 +20,6 @@ display:
           label: Updated
         langcode:
           label: Language
-          separator: ', '
         operations:
           label: Operations
       pager:
@@ -34,7 +31,6 @@ display:
             last: 'Last »'
       exposed_form:
         options:
-          submit_button: Filter
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
           sort_asc_label: Asc
@@ -50,8 +46,6 @@ display:
           expose:
             label: 'Content type'
         status:
-          expose:
-            label: Status
           group_info:
             label: 'Published status'
             group_items:
@@ -66,7 +60,7 @@ display:
     display_title: Page
     display_options:
       menu:
-        title: Content
+        title: Content/Pages
       tab_options:
         title: Content
         description: 'Find and manage content'

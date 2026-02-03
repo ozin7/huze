@@ -7,6 +7,7 @@ module:
   config: 0
   config_translation: 0
   contextual: 0
+  datetime: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0

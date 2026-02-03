@@ -1,3 +1,30 @@
 /* #admin-toolbar {
   height: 100%;
 } */
+#admin-toolbar .toolbar-button--icon--huze-administration-menus::before {
+  content: "" !important;
+  display: inline-block;
+  flex-shrink: 0;
+  background-image: url("../assets/menus.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: var(--toolbar-button-icon-size, 1rem);
+  height: var(--toolbar-button-icon-size, 1rem);
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+#admin-toolbar .toolbar-button--icon--huze-administration-vocabularies::before {
+  content: "" !important;
+  display: inline-block;
+  flex-shrink: 0;
+  background-image: url("../assets/vocabularies.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: var(--toolbar-button-icon-size, 1rem);
+  height: var(--toolbar-button-icon-size, 1rem);
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}

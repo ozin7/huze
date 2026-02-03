@@ -16,9 +16,6 @@ class FormAlterHooks
   #[Hook('form_node_form_alter')]
   public function nodeFormAlter(&$form, FormStateInterface $form_state, $form_id): void
   {
-    $form['status']['#group'] = 'meta';
-    $form['options']['#access'] = false;
-    $form['author']['#access'] = false;
     if (isset($form['path']['widget'][0])) {
       $form['path']['widget'][0]['#open'] = false;
     }
