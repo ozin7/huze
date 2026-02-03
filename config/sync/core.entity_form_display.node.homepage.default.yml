@@ -7,9 +7,28 @@ dependencies:
     - field.field.node.homepage.metatags
     - node.type.homepage
   module:
+    - field_group
     - metatag
-    - path
     - text
+third_party_settings:
+  field_group:
+    group_language:
+      children:
+        - langcode
+      label: Language
+      region: content
+      parent_name: ''
+      weight: 4
+      format_type: details_sidebar
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        open: false
+        description: ''
+        required_fields: true
+        weight: 0
 id: node.homepage.default
 targetEntityType: node
 bundle: homepage
@@ -17,7 +36,7 @@ mode: default
 content:
   description:
     type: text_textarea
-    weight: 4
+    weight: 2
     region: content
     settings:
       rows: 5
@@ -32,26 +51,15 @@ content:
     third_party_settings: {  }
   metatags:
     type: metatag_firehose
-    weight: 5
+    weight: 3
     region: content
     settings:
       sidebar: true
       use_details: true
     third_party_settings: {  }
-  path:
-    type: path
-    weight: 2
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  simple_sitemap:
-    weight: 1
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 3
+    weight: 1
     region: content
     settings:
       display_label: true
@@ -65,12 +73,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 10
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   created: true
+  path: true
   promote: true
+  simple_sitemap: true
   sticky: true
   uid: true
