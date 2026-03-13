@@ -1,6 +1,3 @@
-/* #admin-toolbar {
-  height: 100%;
-} */
 #admin-toolbar .toolbar-button--icon--huze-administration-menus::before {
   content: "" !important;
   display: inline-block;
@@ -27,4 +24,5 @@
   height: var(--toolbar-button-icon-size, 1rem);
   margin-right: 0.5rem;
   vertical-align: middle;
+  --icon: url("/modules/huze/huze_administration/assets/vocabularies.png");
 }
