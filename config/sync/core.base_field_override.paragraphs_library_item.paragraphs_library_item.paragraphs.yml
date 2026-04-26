@@ -1,0 +1,46 @@
+uuid: 0f3557b6-dcca-45f6-b8b1-f10ee14409a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.spacer
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+    - paragraphs_library
+id: paragraphs_library_item.paragraphs_library_item.paragraphs
+field_name: paragraphs
+entity_type: paragraphs_library_item
+bundle: paragraphs_library_item
+label: Paragraphs
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      card: card
+      spacer: spacer
+      text: text
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 6
+        enabled: true
+      from_library:
+        weight: 7
+        enabled: false
+      spacer:
+        weight: 8
+        enabled: true
+      starterkit:
+        weight: 9
+        enabled: false
+      text:
+        weight: 10
+        enabled: true
+field_type: entity_reference_revisions

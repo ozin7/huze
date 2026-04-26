@@ -1,0 +1,21 @@
+uuid: f0d65066-20d1-484a-8439-0d9c3c05f8aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.space
+    - paragraphs.paragraphs_type.spacer
+  module:
+    - options
+id: paragraph.spacer.space
+field_name: space
+entity_type: paragraph
+bundle: spacer
+label: Space
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

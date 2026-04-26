@@ -1,0 +1,35 @@
+uuid: d0fbd919-9e3f-405b-8482-8a8382df13c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.hero.media_image
+    - media.type.hero
+  module:
+    - svg_image
+id: media.hero.default
+targetEntityType: media
+bundle: hero
+mode: default
+content:
+  media_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

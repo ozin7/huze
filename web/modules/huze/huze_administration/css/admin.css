@@ -1,6 +1,117 @@
-/* .layout-region--main {
-  width: 100% !important;
+.view-pumps-administration td.views-field-variants .paragraph--type--product-variation+.paragraph--type--product-variation {
+  margin-top: 4px;
 }
-input[type="text"] {
-  width: 100%;
-} */
+
+.view-pumps-administration td.views-field-variants .paragraph--type--product-variation .field {
+  margin: 0;
+}
+
+.js .field--widget-paragraphs .draggable .tabledrag-handle::after {
+  margin-top: 0px !important;
+}
+
+/* Keep full media preview visible while constraining thumbnail size. */
+.field--widget-media-library-widget .media-library-item__preview .field--name-thumbnail {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.media-library-item .media-library-item__preview .field img {
+  width: auto !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+.field--widget-media-library-widget .media-library-selection .media-library-item__attributes {
+  position: static !important;
+  max-width: 100% !important;
+  max-height: none !important;
+  padding: 6px 8px !important;
+  background: transparent !important;
+}
+
+details .claro-details__summary {
+  background-color: #e1eafc;
+}
+
+.ui-dialog .ui-widget-header {
+  background-color: #74879C !important;
+}
+
+.paragraphs-ee-category-toggle-label {
+  display: none !important;
+}
+
+.paragraph-type--headline .form-type--select {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.paragraph-type--headline .form-type--select>.form-item__label {
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.paragraph-type--headline .form-type--select>.form-select {
+  width: auto;
+}
+
+details[data-drupal-selector="edit-group-main"] .field--widget-options-select .form-type--select {
+  display: grid;
+  grid-template-columns: minmax(140px, 220px) minmax(0, 1fr);
+  align-items: center;
+  column-gap: 12px;
+}
+
+details[data-drupal-selector="edit-group-main"] .field--widget-options-select .form-type--select>.form-item__label {
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+details[data-drupal-selector="edit-group-main"] .field--widget-options-select .form-type--select>.form-select {
+  width: 50%;
+}
+
+#views-exposed-form-paragraphs-library-browser-entity-browser {
+  margin-top: 20px !important;
+}
+
+.entity-type--paragraphs-library-item .item-container {
+  padding: 5px;
+}
+
+.entity-type--paragraphs-library-item .item-container .field--name-label {
+  padding: 5px;
+}
+
+.entity-type--paragraphs-library-item .item-container .remove-button {
+  background-color: #cc3d3d !important;
+}
+
+.media-library-item__remove {
+  background-color: #cc3d3d !important;
+}
+
+.paragraph-type-icon {
+  width: 30px !important;
+  height: 25px !important;
+}
+
+.paragraphs-library-item-edit-form .vertical-tabs {
+  display: none !important;
+}
+
+.btn {
+    border: 2px solid var(--gin-color-primary) !important;
+    border-radius: var(--gin-border-m);
+    padding: 5px;
+    cursor: pointer !important;
+}
+
+button.ck-button {
+  cursor: pointer !important;
+}

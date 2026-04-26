@@ -17,6 +17,12 @@ git pull origin main
 composer site-deploy
 ```
 
+## Add new patch
+```
+composer patches-relock
+composer patches-repatch
+```
+
 ## Site aliases
 Sync DB: `ddev drush sql:sync @remote @self`
 

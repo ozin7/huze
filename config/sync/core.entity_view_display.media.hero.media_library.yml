@@ -1,0 +1,37 @@
+uuid: 4df8222f-6060-483e-a0cb-e3660c61dc84
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.hero.media_image
+    - image.style.media_library
+    - media.type.hero
+  module:
+    - svg_image
+id: media.hero.media_library
+targetEntityType: media
+bundle: hero
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: media_library
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  media_image: true
+  name: true
+  uid: true

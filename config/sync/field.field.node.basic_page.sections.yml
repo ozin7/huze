@@ -1,0 +1,59 @@
+uuid: b0d5e46e-d2be-4e2d-bac2-49060ef8f9c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.sections
+    - node.type.basic_page
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.from_library
+    - paragraphs.paragraphs_type.heading
+    - paragraphs.paragraphs_type.hero
+    - paragraphs.paragraphs_type.spacer
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+id: node.basic_page.sections
+field_name: sections
+entity_type: node
+bundle: basic_page
+label: Sections
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      from_library: from_library
+      spacer: spacer
+      text: text
+      heading: heading
+      card: card
+      hero: hero
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: -8
+        enabled: true
+      from_library:
+        weight: -13
+        enabled: true
+      heading:
+        weight: -10
+        enabled: true
+      hero:
+        weight: 8
+        enabled: true
+      spacer:
+        weight: -12
+        enabled: true
+      starterkit:
+        weight: -9
+        enabled: false
+      text:
+        weight: -11
+        enabled: true
+field_type: entity_reference_revisions

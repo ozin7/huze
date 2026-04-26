@@ -1,0 +1,38 @@
+uuid: a7127d86-f1f9-4aac-b9b3-62d371c9e49c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blog_post.description
+    - field.field.node.blog_post.metatags
+    - node.type.blog_post
+  module:
+    - metatag
+    - text
+    - user
+id: node.blog_post.default
+targetEntityType: node
+bundle: blog_post
+mode: default
+content:
+  description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  metatags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+hidden:
+  langcode: true

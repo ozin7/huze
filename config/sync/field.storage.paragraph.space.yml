@@ -1,0 +1,27 @@
+uuid: e94499d6-4a70-46e1-8f0d-fb9914fa4875
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.space
+field_name: space
+entity_type: paragraph
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 5
+      label: '10 px'
+    -
+      value: 15
+      label: '15 px'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

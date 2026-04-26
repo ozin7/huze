@@ -3,25 +3,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.basic_page.description
     - field.field.node.basic_page.metatags
+    - field.field.node.basic_page.sections
     - node.type.basic_page
   module:
+    - entity_reference_revisions
     - metatag
-    - text
     - user
 id: node.basic_page.default
 targetEntityType: node
 bundle: basic_page
 mode: default
 content:
-  description:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 101
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -33,6 +26,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 102
+    region: content
+  sections:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 103
     region: content
 hidden:
   langcode: true

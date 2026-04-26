@@ -1,0 +1,29 @@
+uuid: ca19ab84-18e9-46f7-bdf8-427f972cbfb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.single_image
+    - media.type.hero
+    - paragraphs.paragraphs_type.hero
+id: paragraph.hero.single_image
+field_name: single_image
+entity_type: paragraph
+bundle: hero
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      hero: hero
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: hero
+field_type: entity_reference
