@@ -1,20 +1,20 @@
-uuid: 71f14a42-cdfb-4546-9aa5-a50525a3408e
+uuid: 3b9b9e22-e3cd-4043-872c-550ff6576937
 langcode: de
 status: true
 dependencies:
   theme:
-    - olivero
+    - huze
 _core:
   default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
-id: olivero_secondary_local_tasks
-theme: olivero
-region: highlighted
+id: huze_secondary_local_tasks
+theme: huze
+region: header
 weight: -2
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Sekundäre Reiter'
+  label: 'Secondary tabs'
   label_display: '0'
   provider: core
   primary: false

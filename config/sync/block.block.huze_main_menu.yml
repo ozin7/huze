@@ -1,4 +1,4 @@
-uuid: 05c6790a-f6ff-4908-a4ea-78b93fe71294
+uuid: 2cca85db-b3b4-47e9-9f99-61c0c8e4eca2
 langcode: de
 status: true
 dependencies:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - olivero
+    - huze
 _core:
   default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
-id: olivero_main_menu
-theme: olivero
-region: primary_menu
+id: huze_main_menu
+theme: huze
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: Hauptnavigation
+  label: 'Main navigation'
   label_display: '0'
   provider: system
   level: 1

@@ -1,4 +1,4 @@
-uuid: 04d7ada1-f386-43c0-aa42-31e9380510d1
+uuid: 30606e81-0454-4610-9184-fd3ab12b6b1a
 langcode: de
 status: true
 dependencies:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - olivero
+    - huze
 _core:
   default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
-id: olivero_account_menu
-theme: olivero
-region: secondary_menu
+id: huze_account_menu
+theme: huze
+region: header
 weight: -4
 provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: Benutzermenü
+  label: 'User account menu'
   label_display: '0'
   provider: system
   level: 1

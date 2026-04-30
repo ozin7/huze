@@ -1,20 +1,20 @@
-uuid: 65eb5821-176a-478c-b73a-49dca884046e
+uuid: 9810e9a2-cc2b-4953-9c60-1f0453fb2f0c
 langcode: de
 status: true
 dependencies:
   theme:
-    - olivero
+    - huze
 _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: olivero_page_title
-theme: olivero
-region: content_above
+id: huze_page_title
+theme: huze
+region: header
 weight: -5
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: Seitentitel
+  label: 'Page title'
   label_display: '0'
   provider: core
 visibility: {  }

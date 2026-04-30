@@ -17,7 +17,7 @@ git pull origin main
 composer site-deploy
 ```
 
-## Add new patch
+## Add new patch(composer v2.3+)
 ```
 composer patches-relock
 composer patches-repatch

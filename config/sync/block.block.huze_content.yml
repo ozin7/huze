@@ -1,22 +1,22 @@
-uuid: ee494ba0-22af-4d27-8a9c-f5a9c9b11d6b
+uuid: 1efce708-44f1-42e7-80ee-20c52c9d79a9
 langcode: de
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - huze
 _core:
   default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
-id: olivero_content
-theme: olivero
+id: huze_content
+theme: huze
 region: content
 weight: 0
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Hauptinhalt der Seite'
+  label: 'Main page content'
   label_display: '0'
   provider: system
 visibility: {  }
